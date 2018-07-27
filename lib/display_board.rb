@@ -12,4 +12,4 @@ puts row[3]
 puts row[4]
 puts row[5]
 end
-display_board
+display_board(row)
