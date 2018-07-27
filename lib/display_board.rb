@@ -1,8 +1,8 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-board=[""]
+board=[" X ", " O ", " O ", " X ", " X ", " O ", " X ", " X ", "  O "]
 
-def display_board
+def display_board(board)
 cell= "   "
 separation= "|"
 cell_row=cell+separation+cell+separation+cell
