@@ -5,7 +5,8 @@ describe "#display_board in 'lib/display_board.rb" do
     it 'prints a blank board when the board array is empty' do
       board = [" "," "," "," "," "," "," "," "," "]
 
-      output = 
+      output = capture_puts{ display_board(board) }
+      
 
       expect(rows[0]).to eq("   |   |   ")
       expect(rows[1]).to eq("-----------")
