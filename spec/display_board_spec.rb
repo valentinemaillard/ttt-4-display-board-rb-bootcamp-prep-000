@@ -6,7 +6,7 @@ describe "#display_board in 'lib/display_board.rb" do
       board = [" "," "," "," "," "," "," "," "," "]
 
       output = display_board(board)
-      rows = display_board/row
+      rows = display_board(board)/row
 
       expect(rows[0]).to eq("   |   |   ")
       expect(rows[1]).to eq("-----------")
