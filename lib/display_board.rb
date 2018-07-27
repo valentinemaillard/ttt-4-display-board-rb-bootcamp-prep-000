@@ -4,12 +4,13 @@
 row=["   |   |   ", "-----------", "   |   |   ", "-----------", "   |   |   "]
 board=[" X ", " O ", " O ", " X ", " X ", " O ", " X ", " X ", "  O "]
 
-def display_board(row, board)
-puts "#{row[0], board[0]}"
-puts row[1]
-puts row[2]
-puts row[3]
-puts row[4]
-puts row[5]
+def display_board(board)
+row=[" #{board[0]} | #{board[1]} | #{board[2] ", "-----------", "   |   |   ", "-----------", "   |   |   "]
+  puts row[0]
+  puts row[1]
+  puts row[2]
+  puts row[3]
+  puts row[4]
+  puts row[5]
 end
-display_board(row, board)
+display_board(board)
